@@ -1,0 +1,184 @@
+.nav-lang{
+    width: 20px;
+    height: 17px;
+
+    border: 1px solid silver;
+}
+.nav-lang:hover{
+     border: 1px solid blue;
+ }
+
+.new-add-btn{
+    border: 1px solid silver;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.new-add-btn:hover{
+    background: #eee;
+}
+
+.ad-card{
+    border: 2px solid white;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+.ad-card:hover{
+    border-color: #eee;
+}
+
+.ad-card hr{
+    margin-bottom: 4px;
+}
+.card__image{
+    height: 150px;
+}
+.card__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 0;
+}
+.card__category{
+    color: #777;
+    font-size: 14px;
+}
+.card__owner{
+    color: #777;
+    font-size: 14px;
+}
+.card__delete{
+    color: #f00;
+    font-size: 14px;
+    margin-left: 20px;
+    border: 1px solid white;
+    background: white;
+}
+.card__delete:hover{
+    color: #999;
+}
+.card__edit{
+    color: green;
+    font-size: 14px;
+    border: 1px solid white;
+    background: white;
+}
+.card__edit:hover{
+    color: #999;
+}
+.notice__btn{
+    color: #f00;
+    font-size: 14px;
+    margin-left: 20px;
+    border: 1px solid white;
+    background: white;
+}
+
+.notices{
+    margin: 30px 10px;
+    border: 2px solid #eee;
+    padding: 30px;
+}
+.card__favorite{
+    color: green;
+    font-size: 14px;
+    border: 1px solid white;
+    background: white;
+}
+.card__favorite:hover{
+    color: #999;
+}
+.card__views{
+    color: #999;
+    font-size: 14px;
+}
+.rec-ads{
+    border-left: 2px solid #eee;
+}
+.rec-ad-card{
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+
+    margin-top: 30px;
+}
+.rec-ad__price{
+    color:green;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* COMMENT */
+.comment__form{
+    border: 1px solid #eee;
+    border-radius: 3px;
+    background: #f7f7f7;
+    padding: 20px;
+
+    margin-top: 40px;
+}
+form .comment__message{
+    width: 100%;
+    resize: none;
+    font-family: Arial;
+}
+
+.comment{
+    padding: 10px;
+    padding-left: 25px;
+    padding-bottom: 3px;
+    border-left: 1px solid #eee;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.comment__message {
+    font-size: 17px;
+}
+.comment__date{
+    margin-top: 5px;
+    font-size: 12px;
+    color: #666;
+}
+
+/* ADMIN MODERATOR BLOCK */
+
+.admin__block{
+    margin: 20px;
+    border: 3px solid #e3342f;
+    border-radius: 2px;
+}
+.admin__p{
+    background: #e3342f;
+    margin: 0;
+    color: white;
+    width: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.moderator__block{
+    margin: 20px;
+    border: 3px solid #38c172;
+    border-radius: 2px;
+    padding: 30px;
+    padding-top:0;
+}
+.moderator__p{
+    background: #38c172;
+    margin: 0;
+    color: white;
+    width: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
